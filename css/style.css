@@ -2,7 +2,7 @@
 /* Variables and Mixins */
 body {
   background-color: #DE8C02;
-  background-image: image-url("wallpaper.jpg");
+  background-image: url("../images/wallpaper.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
