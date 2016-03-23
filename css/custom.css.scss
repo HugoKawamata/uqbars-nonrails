@@ -1,0 +1,356 @@
+/* General CSS */
+
+	/* Variables and Mixins */
+		$main-gry: #222;
+		$orange: #DE8C02;
+		$text-white: #DBDBDB;
+
+
+	body {
+		background-color: $orange;
+		background-image: image-url('wallpaper.jpg');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+
+
+
+	h1, h2, h3 {
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	header {
+		margin-bottom: 10px;
+	}
+
+	footer {
+		text-align: center;
+		margin: 10px 11% 0px 11%;
+		padding-top: 15px;
+		background-color: $main-gry;
+		color: $text-white;
+		border-radius: 5px 5px 0px 0px;
+		overflow: hidden;
+	}
+
+	.underline {
+		background-color: $orange;
+		height: 1px;
+		margin: 5px 0px 40px 0px;
+	}
+
+	.main-body {
+		margin: 0px 11% 0px 11%;
+		background-color: $main-gry;
+		color: $text-white;
+		padding: 50px;
+		border-radius: 6px;
+
+		h3 {
+			text-align: center;
+		}
+
+		p {
+			font-family: "Open sans", sans-serif;
+			margin: 0px 10% 50px 10%;
+			font-size: 1.3em
+		}
+	}
+
+
+	.centered {
+		text-align: center;
+	}
+
+
+
+/* Navbar */
+
+	/* Navbar */
+
+		#navbar {
+			text-align: center;
+		}
+
+		.navbar-collapse .navbar-nav {
+			width:80%;
+			min-width: 776px;
+			margin: 0px 0% 0px 10%;
+			text-align: center;
+			display: inline-block;
+		}
+
+		.navbar-collapse .navbar-nav > li {
+			text-align: center;
+			width: 20%;
+			min-width: 155px;
+			font-size: 1.4em;
+			text-transform: uppercase;
+			font-family: "Montserrat", sans-serif
+		}
+
+		.navbar-inverse .navbar-nav > li > a{
+			color: $text-white;
+		}
+
+		.navbar-inverse .navbar-nav > li > a:hover{
+			color: $orange;
+		}
+
+		.navbar-join {
+			background-color: $orange;
+		}
+
+
+	/* Dropdowns */
+
+		.dropdown:hover .dropdown-menu {
+		    display: block;
+		    text-align: center;
+		}
+
+		.dropdown-menu {
+			    border:0px;
+			    width:100%;
+				text-align: center;
+				background-color: $main-gry;
+				padding:0px;
+				border-radius: 0px;
+		}
+
+		.dropdown-menu > li > a {
+			padding: 20px 0px;
+			color: $text-white;
+			font-size: 1.4em;
+		}
+
+		.dropdown-menu > li > a:hover {
+			background-color: $main-gry;
+			color: $orange;
+		}
+
+	/* Media Buttons */	
+
+		.media_buttons {
+			display: inline-block;
+			position: absolute;
+			margin-left: auto;
+			margin-right: 50px;
+			top: 0px;
+			right:0px;
+		}
+
+		.media_buttons > a > img {
+			width:40px;
+			margin-top: 10px;
+
+		}
+
+
+
+
+/* Homepage */
+
+	/* Carousel CSS */
+
+		#carousel_container > .item {
+			width: 100%;
+			height:100%;
+		}
+
+		#carousel_container > .item > img {
+			margin: auto;
+			width: 100%;
+		}
+
+		.carousel_image {
+			width: 100%;
+			margin: auto;
+		}
+
+
+	/*Thumbnail CSS*/
+		.home_thumbs {
+			width: 100%;
+		}
+
+		.thumbnail {
+			background-color: $main-gry;
+			border: 0px;
+
+
+			h4 {
+				color: $text-white;
+			}
+
+			p {
+				color: $text-white;
+			}
+		}
+
+		.thumbnail img {
+			width: 50%;
+			margin-top: 20px;
+			border-radius: 5px;
+			border: 5px solid #444;
+		}
+
+
+/* Events */
+	.eventslist {
+		width: 90%;
+		margin: 0 5% 0 5%;
+
+		li {
+			list-style-type: none;
+			margin: 20px 0;
+			font-size: 1.3em;
+		}
+	}
+
+	.calendar-img{
+		width: 100%;
+	}
+
+
+/* Sponsorship */
+	.docdownload {
+		font-size: 1.7em;
+		background-color: $text-white;
+		border-radius: 5px;
+		padding: 5px 10px;
+		color: $main-gry;
+		margin: 0 10% 0 10%;
+	}
+
+	.sponsorimage {
+		width:175px;
+		padding: 10px;
+	}
+
+	.sponsor-icon-container {
+		padding: 10px 0px;
+		background-color: $text-white;
+		border-radius: 10px;
+		border-width: 3px;
+		border-color: #000;
+		text-align: center;
+	}
+
+	.sponsor-section {
+		margin: 0px 10% 50px 10%;
+
+		p {
+			margin: 0px 0px 25px 0px;
+		}
+
+		li{
+			font-size: 1.3em;
+		}
+	}
+
+/* Sign Up Form */
+	.sign_up_form{
+
+		input{
+			margin: 10px 0px 40px 25%;
+			width: 50%;
+			border-radius: 3px;
+		}
+
+		label{
+			font-size: 1.2em;
+			margin: 0 0 0 25%
+		}
+
+		.btn{
+			background-color: #FF7F00;
+			border-color: #984c00;
+		}
+
+		.btn :hover{
+			background-color: #984C00;
+		}
+
+	}
+
+	.googleformlabel {
+		width: 50%; 
+		margin-left: 25%; 
+		margin-right: 25%;
+	}
+
+
+	.googleforminput {
+		margin-left: 25%; 
+		border-radius: 2px; 
+		margin-top: 10px; 
+		margin-bottom: 40px; 
+		width: 50%; 
+		margin-right: 25%;
+		color: #222222;
+	}
+
+	/* Google form */
+		.freebirdFormviewerViewCenteredContent {
+			font-family: "Open sans", sans-serif;
+		}
+
+
+		.freebirdFormviewerViewHeaderTitle{
+	 		font-family: 'Montserrat', sans-serif;
+
+		}
+
+/* About Us */
+	.profile-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+
+
+	.profile {
+		width: 30%;
+		
+		background-color: #333;
+		padding: 10px;
+		border-radius: 3px;
+		min-height: 208px;
+		margin: 5px;
+		font-size: 1.3em;
+
+		.name{
+			font-size: 1.5em;
+		}
+
+		.profile-pic {
+			width:100%;
+			margin:auto;
+			padding:0 0 20px 0;
+		}
+
+
+
+	}
+
+
+	.thrive{
+		color: $orange;
+	}
+
+
+/* Footer */
+	.footer-navbar > li {
+		display: inline-block;
+	}
+
+	.footer_text > span > a > img {
+		width: 40px;
+		margin:10px;
+	}
+
+
